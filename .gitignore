@@ -22,7 +22,10 @@ build/*
 *.moved-aside
 DerivedData
 xcuserdata
+UserInterfaceState.xcuserstate
+UserInterface.xcuserstate
 *.xcuserstate
+project.xcworkspace
 /oclint-report.html
 Preview.html
 report.xml
