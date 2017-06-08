@@ -1,0 +1,23 @@
+PODS:
+  - IQKeyboardManager (4.0.10)
+  - Masonry (1.0.2)
+  - Realm (2.8.0):
+    - Realm/Headers (= 2.8.0)
+  - Realm/Headers (2.8.0)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.7)
+  - Masonry (~> 1.0.2)
+  - Realm (~> 2.8)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Realm: 929243ad2b618b3232e70658bedc61110e7563f1
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: 7ac32d9ac415180f4543b593aef380151a761542
+
+COCOAPODS: 1.1.1
