@@ -10,4 +10,6 @@
 
 @interface ExportViewController : UIViewController
 
+@property (nonatomic, assign) NSInteger type; // 0: 导出；1：导入
+
 @end

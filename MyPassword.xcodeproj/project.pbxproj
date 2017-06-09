@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5A49B23D1EE8FDA500E79077 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B23A1EE8FDA500E79077 /* AddViewController.m */; };
-		5A49B2411EE8FDB600E79077 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2401EE8FDB600E79077 /* ImportViewController.m */; };
 		5A49B2441EE8FDBE00E79077 /* ExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2431EE8FDBE00E79077 /* ExportViewController.m */; };
 		5A49B2471EE9008A00E79077 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2461EE9008A00E79077 /* UIBarButtonItem+Extension.m */; };
 		5A49B24D1EE90FAF00E79077 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B24C1EE90FAF00E79077 /* UIView+position.m */; };
@@ -26,8 +25,6 @@
 		157ED7A2AC9F062BBA12D73D /* Pods_MyPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A49B2391EE8FDA500E79077 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		5A49B23A1EE8FDA500E79077 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
-		5A49B23F1EE8FDB600E79077 /* ImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportViewController.h; sourceTree = "<group>"; };
-		5A49B2401EE8FDB600E79077 /* ImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportViewController.m; sourceTree = "<group>"; };
 		5A49B2421EE8FDBE00E79077 /* ExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportViewController.h; sourceTree = "<group>"; };
 		5A49B2431EE8FDBE00E79077 /* ExportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportViewController.m; sourceTree = "<group>"; };
 		5A49B2451EE9008A00E79077 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -134,8 +131,6 @@
 				5AFF686E1EE67E42009E8F74 /* MainViewController.m */,
 				5A49B2391EE8FDA500E79077 /* AddViewController.h */,
 				5A49B23A1EE8FDA500E79077 /* AddViewController.m */,
-				5A49B23F1EE8FDB600E79077 /* ImportViewController.h */,
-				5A49B2401EE8FDB600E79077 /* ImportViewController.m */,
 				5A49B2421EE8FDBE00E79077 /* ExportViewController.h */,
 				5A49B2431EE8FDBE00E79077 /* ExportViewController.m */,
 			);
@@ -284,7 +279,6 @@
 				5AFF68511EE6498C009E8F74 /* AppDelegate.m in Sources */,
 				5AFF684E1EE6498C009E8F74 /* main.m in Sources */,
 				5A4A47A41EE93F8700F95F62 /* PasswordModel.m in Sources */,
-				5A49B2411EE8FDB600E79077 /* ImportViewController.m in Sources */,
 				5A49B2471EE9008A00E79077 /* UIBarButtonItem+Extension.m in Sources */,
 				5A49B24D1EE90FAF00E79077 /* UIView+position.m in Sources */,
 				5A49B23D1EE8FDA500E79077 /* AddViewController.m in Sources */,

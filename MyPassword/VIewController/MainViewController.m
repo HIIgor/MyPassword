@@ -12,6 +12,7 @@
 #import <Masonry/Masonry.h>
 #import "AddViewController.h"
 #import "PasswordModel.h"
+#import "ExportViewController.h"
 
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource, UISearchControllerDelegate, UISearchResultsUpdating>
 
@@ -24,8 +25,8 @@
 
 @property (nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, strong) NSMutableArray *dataSources;
-@property (nonatomic, strong) NSMutableArray *searchDataSources;
+@property (nonatomic, strong) NSMutableArray<PasswordModel *> *dataSources;
+@property (nonatomic, strong) NSMutableArray<PasswordModel *> *searchDataSources;
 
 @end
 
@@ -58,11 +59,6 @@
     [self.tableView reloadData];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-}
-
 #pragma mark - autolayout
 
 - (void)updateViewConstraints {
@@ -82,15 +78,21 @@
 #pragma mark - Private
 
 - (void)leftAction {
-
+    [self pushToExportViewController:1];
 }
 
 - (void)rightAction {
-
+    [self pushToExportViewController:0];
 }
 
 - (void)addAction {
     [self pushToAddViewController:nil];
+}
+
+- (void)pushToExportViewController:(NSInteger)type {
+    ExportViewController *exportVC = [[ExportViewController alloc] init];
+    exportVC.type = type;
+    [self.navigationController pushViewController:exportVC animated:YES];
 }
 
 - (void)pushToAddViewController:(PasswordModel *)passwordModel {
@@ -101,7 +103,7 @@
 
 - (void)loadData {
     [self.dataSources removeAllObjects];
-    [self.dataSources addObjectsFromArray:[PasswordModel allObjects]];
+    [self.dataSources addObjectsFromArray:[[PasswordModel allObjects] sortedResultsUsingKeyPath:@"number" ascending:NO]];
 }
 
 #pragma mark - TableViewDelegate

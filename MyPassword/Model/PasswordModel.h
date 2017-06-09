@@ -17,3 +17,5 @@
 @property NSString *detailDescription;
 
 @end
+
+RLM_ARRAY_TYPE(PasswordModel)
