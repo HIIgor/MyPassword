@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A49B2351EE8FD6A00E79077 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2341EE8FD6A00E79077 /* SearchViewController.m */; };
 		5A49B23D1EE8FDA500E79077 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B23A1EE8FDA500E79077 /* AddViewController.m */; };
-		5A49B23E1EE8FDA500E79077 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B23C1EE8FDA500E79077 /* DetailViewController.m */; };
 		5A49B2411EE8FDB600E79077 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2401EE8FDB600E79077 /* ImportViewController.m */; };
 		5A49B2441EE8FDBE00E79077 /* ExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2431EE8FDBE00E79077 /* ExportViewController.m */; };
 		5A49B2471EE9008A00E79077 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B2461EE9008A00E79077 /* UIBarButtonItem+Extension.m */; };
 		5A49B24D1EE90FAF00E79077 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49B24C1EE90FAF00E79077 /* UIView+position.m */; };
+		5A4A47A41EE93F8700F95F62 /* PasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A47A31EE93F8700F95F62 /* PasswordModel.m */; };
 		5AFF684E1EE6498C009E8F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF684D1EE6498C009E8F74 /* main.m */; };
 		5AFF68511EE6498C009E8F74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF68501EE6498C009E8F74 /* AppDelegate.m */; };
 		5AFF68591EE6498D009E8F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFF68581EE6498D009E8F74 /* Assets.xcassets */; };
@@ -25,12 +24,8 @@
 
 /* Begin PBXFileReference section */
 		157ED7A2AC9F062BBA12D73D /* Pods_MyPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A49B2331EE8FD6A00E79077 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		5A49B2341EE8FD6A00E79077 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		5A49B2391EE8FDA500E79077 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		5A49B23A1EE8FDA500E79077 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
-		5A49B23B1EE8FDA500E79077 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		5A49B23C1EE8FDA500E79077 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5A49B23F1EE8FDB600E79077 /* ImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportViewController.h; sourceTree = "<group>"; };
 		5A49B2401EE8FDB600E79077 /* ImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportViewController.m; sourceTree = "<group>"; };
 		5A49B2421EE8FDBE00E79077 /* ExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportViewController.h; sourceTree = "<group>"; };
@@ -39,6 +34,8 @@
 		5A49B2461EE9008A00E79077 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		5A49B24B1EE90FAF00E79077 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
 		5A49B24C1EE90FAF00E79077 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		5A4A47A21EE93F8700F95F62 /* PasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordModel.h; sourceTree = "<group>"; };
+		5A4A47A31EE93F8700F95F62 /* PasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordModel.m; sourceTree = "<group>"; };
 		5AFF68491EE6498C009E8F74 /* MyPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFF684D1EE6498C009E8F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AFF684F1EE6498C009E8F74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A4A47A11EE93F3B00F95F62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A47A21EE93F8700F95F62 /* PasswordModel.h */,
+				5A4A47A31EE93F8700F95F62 /* PasswordModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5AFF68401EE6498C009E8F74 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +95,7 @@
 			children = (
 				5AFF684F1EE6498C009E8F74 /* AppDelegate.h */,
 				5AFF68501EE6498C009E8F74 /* AppDelegate.m */,
+				5A4A47A11EE93F3B00F95F62 /* Model */,
 				5AFF68631EE64BCD009E8F74 /* View */,
 				5AFF68641EE64BCD009E8F74 /* VIewController */,
 				5AFF68581EE6498D009E8F74 /* Assets.xcassets */,
@@ -125,12 +132,8 @@
 				5AFF686C1EE67E42009E8F74 /* LoginViewController.m */,
 				5AFF686D1EE67E42009E8F74 /* MainViewController.h */,
 				5AFF686E1EE67E42009E8F74 /* MainViewController.m */,
-				5A49B2331EE8FD6A00E79077 /* SearchViewController.h */,
-				5A49B2341EE8FD6A00E79077 /* SearchViewController.m */,
 				5A49B2391EE8FDA500E79077 /* AddViewController.h */,
 				5A49B23A1EE8FDA500E79077 /* AddViewController.m */,
-				5A49B23B1EE8FDA500E79077 /* DetailViewController.h */,
-				5A49B23C1EE8FDA500E79077 /* DetailViewController.m */,
 				5A49B23F1EE8FDB600E79077 /* ImportViewController.h */,
 				5A49B2401EE8FDB600E79077 /* ImportViewController.m */,
 				5A49B2421EE8FDBE00E79077 /* ExportViewController.h */,
@@ -280,14 +283,13 @@
 			files = (
 				5AFF68511EE6498C009E8F74 /* AppDelegate.m in Sources */,
 				5AFF684E1EE6498C009E8F74 /* main.m in Sources */,
-				5A49B23E1EE8FDA500E79077 /* DetailViewController.m in Sources */,
+				5A4A47A41EE93F8700F95F62 /* PasswordModel.m in Sources */,
 				5A49B2411EE8FDB600E79077 /* ImportViewController.m in Sources */,
 				5A49B2471EE9008A00E79077 /* UIBarButtonItem+Extension.m in Sources */,
 				5A49B24D1EE90FAF00E79077 /* UIView+position.m in Sources */,
 				5A49B23D1EE8FDA500E79077 /* AddViewController.m in Sources */,
 				5AFF686F1EE67E42009E8F74 /* LoginViewController.m in Sources */,
 				5AFF68701EE67E42009E8F74 /* MainViewController.m in Sources */,
-				5A49B2351EE8FD6A00E79077 /* SearchViewController.m in Sources */,
 				5A49B2441EE8FDBE00E79077 /* ExportViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
