@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PasswordModel.h"
 
 @interface AddViewController : UIViewController
+
+@property (nonatomic, strong) PasswordModel *passwordModel;
 
 @end

@@ -11,33 +11,6 @@
 
 @implementation UIBarButtonItem (Extension)
 
-//+ (instancetype)closeBarButtonItemWithTarget:(id)target action:(SEL)action {
-//    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    backButton.accessibilityIdentifier = @"closeBack";
-//    backButton.rrc_eventId = @"closeBackButton";
-//
-//    BONChain *baseChain = BONChain.new.font(kNavigationBarIconFont).string(kIconFontNavigationBarClose40).baselineOffset(-1);
-//    [baseChain appendLink:[RRCBonChain chainWithSpace]];
-//    [baseChain appendLink:BONChain.new.string(@"关闭").font([UIFont systemFontOfSize:17])];
-//
-//    BONChain *normalChain = BONChain.new.color(DKCurrentThemeColorWithKey(THEME_TEXT_PRIMARY));
-//    [normalChain appendLink:baseChain];
-//
-//    BONChain *highlitedChain = BONChain.new.color([DKCurrentThemeColorWithKey(THEME_TEXT_PRIMARY) colorWithAlphaComponent:0.4f]);
-//    [highlitedChain appendLink:baseChain];
-//
-//    [backButton setAttributedTitle:normalChain.attributedString forState:UIControlStateNormal];
-//    [backButton setAttributedTitle:highlitedChain.attributedString forState:UIControlStateHighlighted];
-//
-//    [backButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-//    [backButton setTitleEdgeInsets:UIEdgeInsetsMake(-2, -10, 0, 0)];
-//    [backButton setFrame:CGRectMake(0, 0, 50, 44)];
-//
-//    UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
-//
-//    return buttonItem;
-//}
-
 + (instancetype)backBarButtonItemWithTarget:(id)target action:(SEL)action {
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [backButton setTitle:@"返回" forState:UIControlStateNormal];

@@ -10,14 +10,8 @@
 
 @interface UIBarButtonItem (Extension)
 
-//+ (instancetype)closeBarButtonItemWithTarget:(id)target action:(SEL)action;
-
 + (instancetype)backBarButtonItemWithTarget:(id)target action:(SEL)action;
 
-//+ (instancetype)backBarButtonItemWithTarget:(id)target action:(SEL)action title:(NSString *)title;
-
 + (instancetype)rightBarButtonItemWithText:(NSString *)title target:(id)target action:(SEL)action;
-
-+ (instancetype)rightBarButtonItemWithIconFont:(NSString *)title target:(id)target action:(SEL)action;
 
 @end
