@@ -95,9 +95,6 @@
 				5A4A47A11EE93F3B00F95F62 /* Model */,
 				5AFF68631EE64BCD009E8F74 /* View */,
 				5AFF68641EE64BCD009E8F74 /* VIewController */,
-				5AFF68581EE6498D009E8F74 /* Assets.xcassets */,
-				5AFF685A1EE6498D009E8F74 /* LaunchScreen.storyboard */,
-				5AFF685D1EE6498D009E8F74 /* Info.plist */,
 				5AFF684C1EE6498C009E8F74 /* Supporting Files */,
 			);
 			path = MyPassword;
@@ -106,6 +103,9 @@
 		5AFF684C1EE6498C009E8F74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5AFF68581EE6498D009E8F74 /* Assets.xcassets */,
+				5AFF685A1EE6498D009E8F74 /* LaunchScreen.storyboard */,
+				5AFF685D1EE6498D009E8F74 /* Info.plist */,
 				5AFF684D1EE6498C009E8F74 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -189,7 +189,7 @@
 					5AFF68481EE6498C009E8F74 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 78V6Z6ANBE;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -402,6 +402,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.renrenche.test.MyPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e402f8f0-78f5-494b-93d4-c1464fb33448";
+				PROVISIONING_PROFILE_SPECIFIER = renrenche.test.profile;
 			};
 			name = Debug;
 		};
@@ -410,11 +412,12 @@
 			baseConfigurationReference = ADFF005E3817587A8113A0BA /* Pods-MyPassword.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 78V6Z6ANBE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyPassword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.renrenche.test.MyPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
